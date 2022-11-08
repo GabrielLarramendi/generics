@@ -5,13 +5,13 @@ import java.util.List;
 
 public class PrintService {
 
-    List<Integer> list = new ArrayList<Integer>();
+    List<Object> list = new ArrayList<Object>();
 
-    public void addValue(Integer value) {
+    public void addValue(Object value) {
         list.add(value);
     }
 
-    public int first() {
+    public Object first() {
         if (list.isEmpty()) {
             throw new IllegalStateException("List is empty");
         }
