@@ -3,15 +3,15 @@ package problem01.services;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PrintService {
+public class PrintService<genericType>{
 
-    List<Object> list = new ArrayList<Object>();
+    List<genericType> list = new ArrayList<genericType>();
 
-    public void addValue(Object value) {
+    public void addValue(genericType value) {
         list.add(value);
     }
 
-    public Object first() {
+    public genericType first() {
         if (list.isEmpty()) {
             throw new IllegalStateException("List is empty");
         }

@@ -8,20 +8,18 @@ public class MainProgram {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        PrintService ps = new PrintService();
+        PrintService<String> ps = new PrintService<String>();
 
         System.out.print("How many values: ");
         int  n = sc.nextInt();
-
-        ps.addValue("Maria");
-
+        //ps.addValue("Maria"); Type safety: A lista não pode mais receber um valor Object qualquer, so inteiros.
         for (int i = 0; i < n; i++) {
-            Integer value = sc.nextInt();
+            String value = sc.next();
             ps.addValue(value);
         }
 
         ps.print();
-        Integer x = (Integer) ps.first();
+        String x = ps.first(); //Não precisa mais fazer o casting
         System.out.println("First: " + x);
 
         sc.close();
