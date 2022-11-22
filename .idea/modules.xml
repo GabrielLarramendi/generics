@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/generics.iml" filepath="$PROJECT_DIR$/generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/generics-intro/generics-intro.iml" filepath="$PROJECT_DIR$/generics-intro/generics-intro.iml" />
       <module fileurl="file://$PROJECT_DIR$/generics-intro-2/generics-intro-2.iml" filepath="$PROJECT_DIR$/generics-intro-2/generics-intro-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/get-put/get-put.iml" filepath="$PROJECT_DIR$/get-put/get-put.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wildcardTypes/wildcardTypes.iml" filepath="$PROJECT_DIR$/wildcardTypes/wildcardTypes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wildcardTypes-2/wildcardTypes-2.iml" filepath="$PROJECT_DIR$/wildcardTypes-2/wildcardTypes-2.iml" />
     </modules>
   </component>
 </project>

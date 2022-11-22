@@ -16,8 +16,8 @@ public class MethodExercise {
         printList(myDoubles);
     }
 
-    public static void printList(List<?> list) { //Caso recebesse uma lista de Objectm não funcionaria
-        for (Object obj : list) {                //Ja que nao é possivel fazer o upcasting das listas;
+    public static void printList(List<?> list) {
+        for (Object obj : list) {
             System.out.println(obj);
         }
     }
